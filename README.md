@@ -52,3 +52,19 @@ exec_url = base_url + "vulnerabilities/exec/"
 jar = http.cookiejar.CookieJar()
 opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
 # Automated session handling, authentication, and command injection...
+```
+
+📸 Execution & Evidence
+Exploit Execution (Terminal PoC)
+Terminal Output Validation
+Lab Directory Structure
+🛡️ Remediation & Mitigation
+To fix OS Command Injection vulnerabilities:
+
+Avoid shell execution functions (e.g., shell_exec, system) where possible.
+
+Strict input whitelisting: Validate input against a strict regex pattern (e.g., ensuring input matches valid IPv4 format only).
+
+Parameter escaping: If shell execution is mandatory, use escapeshellcmd() and escapeshellarg().
+
+Disclaimer: Conducted exclusively within a localized, authorized, and isolated testing environment for educational and defensive engineering purposes.
