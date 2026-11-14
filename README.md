@@ -56,13 +56,13 @@ opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
 ## 📸 Execution & Evidence
 
 ### Exploit Execution (Terminal PoC)
-![Exploit Execution](evidence/after/exploit%20suuccesful.jpg)
+![Exploit Execution](evidence/exploit%20suuccesful.jpg)
 
 ### Terminal Output Validation
-![Terminal Output](evidence/after/successful.jpg)
+![Terminal Output](evidence/successful.jpg)
 
 ### Lab Directory Structure
-![Lab Structure](evidence/after/week%2028.jpg)
+![Lab Structure](evidence/week%2028.jpg)
 
 ### 🛡️ Remediation & Mitigation
 To fix OS Command Injection vulnerabilities:
