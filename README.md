@@ -53,12 +53,18 @@ jar = http.cookiejar.CookieJar()
 opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
 # Automated session handling, authentication, and command injection...
 ```
+## 📸 Execution & Evidence
 
-📸 Execution & Evidence
-Exploit Execution (Terminal PoC)
-Terminal Output Validation
-Lab Directory Structure
-🛡️ Remediation & Mitigation
+### Exploit Execution (Terminal PoC)
+![Exploit Execution](evidence/after/exploit%20suuccesful.jpg)
+
+### Terminal Output Validation
+![Terminal Output](evidence/after/successful.jpg)
+
+### Lab Directory Structure
+![Lab Structure](evidence/after/week%2028.jpg)
+
+### 🛡️ Remediation & Mitigation
 To fix OS Command Injection vulnerabilities:
 
 Avoid shell execution functions (e.g., shell_exec, system) where possible.
